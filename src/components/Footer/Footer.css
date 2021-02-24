@@ -1,0 +1,32 @@
+#footer-body {
+   margin-right: 29em;
+   height: 25em;
+}
+
+#footer-text {
+   width: 28rem;
+   border: none;
+   background-color: #1d1b24;
+   color: #ffff;
+   font-weight: 400;
+}
+
+ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+a {
+   text-decoration: none !important;
+   color: #ffff;
+}
+
+a:hover {
+   color: #d8d5d5;
+}
+
+@media screen and (max-width: 991px) {
+   #footer-body {
+      margin: 0;
+   }
+}

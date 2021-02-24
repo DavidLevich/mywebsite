@@ -1,3 +1,20 @@
 body {
    background-color: #1d1b24;
+   scroll-behavior: smooth;
+}
+
+hr {
+   border-color: #53f6c7;
+   border-width: 3px;
+   max-width: 24em;
+   padding: 1.3em;
+   height: 10px;
+}
+
+@media screen and (max-width: 812px) {
+   hr {
+      border-color: #53f6c7;
+      border-width: 3px;
+      max-width: 18em;
+   }
 }

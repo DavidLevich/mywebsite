@@ -1,0 +1,20 @@
+.card {
+   width: 28rem;
+   border: none;
+   background-color: #1d1b24;
+   color: #ffff;
+   font-weight: 400;
+   text-align: justify;
+}
+
+
+@media screen and (max-width: 812px) {
+   .card {
+      width: 22rem;
+      border: none;
+      background-color: #1d1b24;
+      color: #ffff;
+      font-weight: 400;
+      text-align: justify;
+   }
+}
