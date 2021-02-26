@@ -17,21 +17,13 @@ const About = () => {
                </Card.Body>
             </Card>
          </div>
-         <div className='d-flex justify-content-center' style={{ height: '17em' }}>
+         {/* <div className='d-flex justify-content-center' style={{ height: '17em' }}>
             <Card>
                <Card.Body>
-                  <div id='skill-names' className='d-flex justify-content-around'>
-                     <Card.Title className='font-weight-bold' style={{ color: '#53f6c7', marginBottom: '12px' }}>
+                  <div id='front-end'>
+                     <Card.Title className='font-weight-bold' style={{ color: '#53f6c7' }}>
                         Front-End
                      </Card.Title>
-                     <Card.Title className='font-weight-bold' style={{ color: '#53f6c7', marginBottom: '12px' }}>
-                        Back-End
-                     </Card.Title>
-                     <Card.Title className='font-weight-bold' style={{ color: '#53f6c7', marginBottom: '12px' }}>
-                        Development Tools
-                     </Card.Title>
-                  </div>
-                  <div id='skill-desc' className='d-flex justify-content-around'>
                      <Card.Text id='footer-text'>
                         <ul>
                            <li>JavaSript (React/Gatsby)</li>
@@ -39,6 +31,11 @@ const About = () => {
                            <li>CSS</li>
                         </ul>
                      </Card.Text>
+                  </div>
+                  <div id='back-end'>
+                     <Card.Title className='font-weight-bold' style={{ color: '#53f6c7', marginRight: '12px' }}>
+                        Back-End
+                     </Card.Title>
                      <Card.Text>
                         <ul>
                            <li>Python</li>
@@ -46,6 +43,11 @@ const About = () => {
                            <li>Node.js (Express.js)</li>
                         </ul>
                      </Card.Text>
+                  </div>
+                  <div id='dev-tools'>
+                     <Card.Title className='font-weight-bold' style={{ color: '#53f6c7', marginRight: '12px' }}>
+                        Development Tools
+                     </Card.Title>
                      <Card.Text>
                         <ul>
                            <li>Command Line</li>
@@ -56,7 +58,7 @@ const About = () => {
                   </div>
                </Card.Body>
             </Card>
-         </div>
+         </div> */}
       </div>
    )
 }
