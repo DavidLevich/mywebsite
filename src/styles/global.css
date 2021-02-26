@@ -11,7 +11,7 @@ hr {
    height: 10px;
 }
 
-@media screen and (max-width: 812px) {
+@media screen and (max-width: 776px) {
    hr {
       border-color: #53f6c7;
       border-width: 3px;

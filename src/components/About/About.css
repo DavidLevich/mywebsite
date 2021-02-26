@@ -1,3 +1,8 @@
+#desc {
+   margin-top: 10em;
+   margin-bottom: 6em;
+}
+
 #intro {
    font-size: 1.6em;
    font-weight: 500;
@@ -9,4 +14,15 @@
 
 #text {
    font-size: 1.45em;
+}
+
+@media screen and (max-width: 776px) {
+   #desc {
+      margin-top: 9em;
+      margin-bottom: 7em;
+   }
+   
+   #intro {
+      display: block;
+   }
 }

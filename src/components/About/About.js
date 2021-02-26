@@ -1,11 +1,11 @@
 import React from 'react'
-import Card from 'react-bootstrap/Card'
+import { Card, CardDeck }from 'react-bootstrap'
 import './About.css'
 
 const About = () => {
    return (
       <div>
-         <div className='d-flex justify-content-center' style={{ marginTop: '12em', height: '16em' }}>
+         <div id='desc' className='d-flex justify-content-center'>
             <Card style={{ width: '45.4em' }}>
                <Card.Body>
                   <Card.Text id='text'>
@@ -17,35 +17,40 @@ const About = () => {
                </Card.Body>
             </Card>
          </div>
-         {/* <div className='d-flex justify-content-center' style={{ height: '17em' }}>
-            <Card>
-               <Card.Body>
-                  <div id='front-end'>
+         <div className='d-flex justify-content-center'>
+            <CardDeck style={{ width: '46em', height: '16em', marginLeft: '1em' }}>
+               <Card >
+                  <Card.Body>
                      <Card.Title className='font-weight-bold' style={{ color: '#53f6c7' }}>
                         Front-End
                      </Card.Title>
-                     <Card.Text id='footer-text'>
+                     <Card.Text>
                         <ul>
-                           <li>JavaSript (React/Gatsby)</li>
+                           <li>React</li>
+                           <li>JavaSript</li>
                            <li>HTML</li>
                            <li>CSS</li>
                         </ul>
                      </Card.Text>
-                  </div>
-                  <div id='back-end'>
-                     <Card.Title className='font-weight-bold' style={{ color: '#53f6c7', marginRight: '12px' }}>
+                  </Card.Body>
+               </Card>
+               <Card>
+                  <Card.Body>
+                     <Card.Title className='font-weight-bold' style={{ color: '#53f6c7' }}>
                         Back-End
                      </Card.Title>
                      <Card.Text>
                         <ul>
                            <li>Python</li>
                            <li>C</li>
-                           <li>Node.js (Express.js)</li>
+                           <li>Node.js</li>
                         </ul>
                      </Card.Text>
-                  </div>
-                  <div id='dev-tools'>
-                     <Card.Title className='font-weight-bold' style={{ color: '#53f6c7', marginRight: '12px' }}>
+                  </Card.Body>
+               </Card>
+               <Card>
+                  <Card.Body>
+                     <Card.Title className='font-weight-bold' style={{ width: '12em', color: '#53f6c7' }}>
                         Development Tools
                      </Card.Title>
                      <Card.Text>
@@ -55,10 +60,10 @@ const About = () => {
                            <li>Heroku Deployment</li>
                         </ul>
                      </Card.Text>
-                  </div>
-               </Card.Body>
-            </Card>
-         </div> */}
+                  </Card.Body>
+               </Card>
+            </CardDeck>
+         </div>
       </div>
    )
 }

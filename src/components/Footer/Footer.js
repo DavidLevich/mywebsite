@@ -13,20 +13,17 @@ const Footer = () => {
                   </Card.Title>
                   <Card.Text id='footer-text'>
                      <ul>
-                        <div style={{ display: 'flex'}}>
-                           <li> 
-                              <a href='mailto: david.iosilevich@gmail.com'>
-                                 david.iosilevich@gmail.com
-                              </a>
-                           </li>
-                           <p style={{ paddingLeft: '15px' }}> | </p>
-                           <li style={{ paddingLeft: '15px' }}>
-                              <a href='mailto: di492@nyu.edu'>
-                                 di492@nyu.edu
-                              </a>
-                           </li>
-                        </div>
-                        <li style={{ marginTop: '-15px' }}>
+                        {/* <li> 
+                           <a href='mailto: david.iosilevich@gmail.com'>
+                              david.iosilevich@gmail.com
+                           </a>
+                        </li>
+                        <li style={{ marginTop: '5px'}}>
+                           <a href='mailto: di492@nyu.edu'>
+                              di492@nyu.edu
+                           </a>
+                        </li> */}
+                        <li style={{ marginTop: '5px'}}>
                            <a href='https://www.linkedin.com/in/davidiosilevich/'>
                               LinkedIn
                            </a>
