@@ -8,8 +8,10 @@ const WeensyOS = () => {
       <div>
          <Card>
             <Card.Img className='rounded' variant="top" src={osGIF} />
-            <Card.Body style={{ height: '15rem' }}>
-               <Card.Title className='font-weight-bold'>WeensyOS Lab (NYU)</Card.Title>
+            <Card.Body style={{ height: '16rem' }}>
+               <Card.Title className='font-weight-bold' style={{ marginTop: '-7px' }}>
+                  WeensyOS Lab (NYU)
+               </Card.Title>
                <Card.Text>
                   Implemented process memory isolation for a small operating system known as WeensyOS. 
                   Improved memory utilization by implementing virtual memory architecture. 

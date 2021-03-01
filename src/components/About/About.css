@@ -1,23 +1,42 @@
-#desc {
-   margin-top: 10em;
+.desc {
+   margin-top: 14em;
    margin-bottom: 6em;
 }
 
-#intro {
+.card-deck {
+   width: 46em;
+   height: 16em;
+   margin-left: 1em;
+}
+
+.card-container {
+   display: flex;
+   justify-content: center;
+}
+
+.desktop {
+   padding-bottom: 1.2em;
+}
+
+.intro {
    font-size: 1.6em;
    font-weight: 500;
 }
 
-#name {
+.name {
    color: #53f6c7;
 }
 
-#text {
+.text {
    font-size: 1.45em;
 }
 
-@media screen and (max-width: 776px) {
-   #desc {
+@media screen and (max-width: 800px) {
+   .desktop {
+      display: none;
+   }
+
+   .desc {
       margin-top: 9em;
       margin-bottom: 7em;
    }

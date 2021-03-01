@@ -5,7 +5,7 @@ import './Footer.css'
 const Footer = () => {
    return (
       <div id='contact'>
-         <div id='footer-body' className='d-flex justify-content-center pt-5'>
+         <div id='footer-body' className='d-flex justify-content-center'>
             <Card>
                <Card.Body>
                   <Card.Title className='font-weight-bold' style={{ color: '#53f6c7', marginBottom: '12px' }}>

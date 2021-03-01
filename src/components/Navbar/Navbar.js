@@ -9,35 +9,33 @@ const Navbar = () => {
     const closeMobileMenu = () => setClick(false);
   
     return (
-      <>
-        <nav className='navbar'>
-          <div className='navbar-container'>
-            <AnchorLink to='/#home' className='navbar-name' onClick={closeMobileMenu}>
-              David Iosilevich
-            </AnchorLink>
-            <div className='menu-icon' onClick={handleClick}>
-              <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-            </div>
-            <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-              <li className='nav-item'>
-                <AnchorLink to='/#home' className='nav-links' onClick={closeMobileMenu}>
-                  About
-                </AnchorLink>
-              </li>
-              <li className='nav-item'>
-                <AnchorLink to='/#projects' className='nav-links' onClick={closeMobileMenu}>
-                  Projects
-                </AnchorLink>
-              </li>
-              <li className='nav-item'>
-                <AnchorLink to='/#contact' className='nav-links' onClick={closeMobileMenu}>
-                  Contact
-                </AnchorLink>
-              </li>
-            </ul>
+      <nav className='navbar'>
+        <div className='navbar-container'>
+          <AnchorLink to='/#home' className='navbar-name' onClick={closeMobileMenu}>
+            David Iosilevich
+          </AnchorLink>
+          <div className='menu-icon' onClick={handleClick} role='presentation'>
+            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
-        </nav>
-      </>
+          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+            <li className='nav-item' role='presentation' onClick={closeMobileMenu}>
+              <AnchorLink to='/#home' className='nav-links'>
+                About
+              </AnchorLink>
+            </li>
+            <li className='nav-item' role='presentation' onClick={closeMobileMenu}>
+              <AnchorLink to='/#projects' className='nav-links'>
+                Projects
+              </AnchorLink>
+            </li>
+            <li className='nav-item' role='presentation' onClick={closeMobileMenu}>
+              <AnchorLink to='/#contact' className='nav-links'>
+                Contact
+              </AnchorLink>
+            </li>
+          </ul>
+        </div>
+      </nav>
     );
   }
 

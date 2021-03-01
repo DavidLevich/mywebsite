@@ -1,3 +1,7 @@
+.cards-container {
+   overflow-x: hidden;
+}
+
 .card {
    width: 28rem;
    border: none;
@@ -8,7 +12,7 @@
 }
 
 
-@media screen and (max-width: 776px) {
+@media screen and (max-width: 800px) {
    .card {
       width: 22rem;
       border: none;

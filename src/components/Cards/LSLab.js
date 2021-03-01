@@ -7,8 +7,10 @@ const WeensyOS = () => {
       <div>
          <Card>
             <Card.Img className='rounded' variant="top" src={lsGIF} />
-            <Card.Body style={{ height: '15rem'}}>
-               <Card.Title className='font-weight-bold'>LS Lab (NYU)</Card.Title>
+            <Card.Body style={{ height: '16rem'}}>
+               <Card.Title className='font-weight-bold' style={{ marginTop: '-7px' }}>
+                  LS Lab (NYU)
+               </Card.Title>
                <Card.Text>
                   Implemented a version of the “ls” Unix command.
                   Worked with Unix system calls to read and print files in a given directory.

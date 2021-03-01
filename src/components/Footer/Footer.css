@@ -1,6 +1,7 @@
 #footer-body {
    margin-right: 29em;
    height: 25em;
+   overflow-x: hidden;
 }
 
 #footer-text {
