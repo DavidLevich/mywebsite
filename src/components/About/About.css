@@ -1,5 +1,5 @@
 .desc {
-   margin-top: 14em;
+   margin-top: 10em;
    margin-bottom: 6em;
 }
 
@@ -37,7 +37,7 @@
 
 @media screen and (max-width: 800px) {
    .desc {
-      margin-top: 6em;
+      margin-top: 5em;
       margin-bottom: 3.8em;
    }
    
