@@ -24,6 +24,4 @@ const WeensyOS = () => {
    )
 }
 
-// #53f6c7
-
 export default WeensyOS

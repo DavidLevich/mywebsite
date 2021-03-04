@@ -2,6 +2,7 @@ import React from 'react'
 import {Container, Row, Col} from 'react-bootstrap'
 import WeensyOS from './WeensyOS'
 import LSLab from './LSLab'
+import Recognition from './Recognition'
 
 const Cards = () => {
    return (
@@ -14,10 +15,12 @@ const Cards = () => {
                <Col className='d-flex justify-content-center pt-2'>
                   <LSLab />
                </Col>
+               <Col className='recog d-flex justify-content-center pt-3'>
+                  <Recognition />
+               </Col>
             </Row>
          </Container>
       </div>
-      
    )
 }
 

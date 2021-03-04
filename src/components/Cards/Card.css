@@ -21,4 +21,8 @@
       font-weight: 400;
       text-align: justify;
    }
+
+   .recog {
+      padding-top: 3.5em !important;
+   }
 }

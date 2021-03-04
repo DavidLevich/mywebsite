@@ -1,52 +1,15 @@
 import React from 'react'
+import './About.css'
 
 const SkillsMobile = () => {
    return (
-      <div className='card-container'>
-         <CardDeck>
-            <Card>
-               <Card.Body>
-                  <Card.Title className='font-weight-bold' style={{ color: '#53f6c7' }}>
-                     Front-End
-                  </Card.Title>
-                  <Card.Text>
-                     <ul>
-                        <li>React</li>
-                        <li>JavaSript</li>
-                        <li>HTML/CSS</li>
-                     </ul>
-                  </Card.Text>
-               </Card.Body>
-            </Card>
-            <Card>
-               <Card.Body>
-                  <Card.Title className='font-weight-bold' style={{ color: '#53f6c7' }}>
-                     Back-End
-                  </Card.Title>
-                  <Card.Text>
-                     <ul>
-                        <li>Python</li>
-                        <li>C</li>
-                        <li>Node.js</li>
-                     </ul>
-                  </Card.Text>
-               </Card.Body>
-            </Card>
-            <Card>
-               <Card.Body>
-                  <Card.Title className='font-weight-bold' style={{ width: '12em', color: '#53f6c7' }}>
-                     Development Tools
-                  </Card.Title>
-                  <Card.Text>
-                     <ul>
-                        <li>Command Line</li>
-                        <li>Git Version Control</li>
-                        <li>Heroku Deployment</li>
-                     </ul>
-                  </Card.Text>
-               </Card.Body>
-            </Card>
-         </CardDeck>
+      <div className='mobile-skills'>
+         <h5 className='mobile-titles'>Front-End</h5>
+         <p className='pb-2'>React, JavaSript, HTML/CSS</p>
+         <h5 className='mobile-titles'>Back-End</h5>
+         <p className='pb-2'>Python, C, Node.js</p>
+         <h5 className='mobile-titles'>Development Tools</h5>
+         <p className='pb-2'>Command Line, Git, Heroku</p>
       </div>
    )
 }

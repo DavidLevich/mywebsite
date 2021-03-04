@@ -18,6 +18,10 @@
    padding-bottom: 1.2em;
 }
 
+.mobile {
+   display: none;
+}
+
 .intro {
    font-size: 1.6em;
    font-weight: 500;
@@ -32,16 +36,33 @@
 }
 
 @media screen and (max-width: 800px) {
+   .desc {
+      margin-top: 7em;
+      margin-bottom: 3.8em;
+   }
+   
+   .intro {
+      display: block;
+   }
+
    .desktop {
       display: none;
    }
 
-   .desc {
-      margin-top: 9em;
-      margin-bottom: 7em;
+   .mobile {
+      display: flex;
+      justify-content: center;
    }
-   
-   #intro {
+
+   .mobile-skills {
+      justify-content: center;
+      width: 13em;
+      color: #ffff;
+      padding-bottom: 2.5em;
+   }
+
+   .mobile-titles {
       display: block;
+      color: #53f6c7;
    }
 }

@@ -7,9 +7,21 @@ body {
 hr {
    border-color: #53f6c7;
    border-width: 3px;
-   max-width: 24em;
+   max-width: 55em;
    padding: 1.3em;
    overflow-x: hidden;
+}
+
+@media screen and (max-width: 1199px) {
+   hr {
+      max-width: 50em;
+   }
+}
+
+@media screen and (max-width: 991px) {
+   hr {
+      max-width: 30em;
+   }
 }
 
 @media screen and (max-width: 800px) {

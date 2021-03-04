@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card } from 'react-bootstrap'
 import SkillsDesktop from './SkillsDesktop'
+import SkillsMobile from './SkillsMobile'
 import './About.css'
 
 const About = () => {
@@ -11,9 +12,8 @@ const About = () => {
                <Card.Body>
                   <Card.Text className='text'>
                      <span className='intro'>Hey, I'm <span className='name'>David</span>. </span>
-                     I'm a software developer currently 
-                     pursuing a joint B.A. degree in Computer Science and Mathematics at 
-                     NYU Courant. Focusing on full-stack web development.
+                     I'm a software developer currently studying Computer Science and Mathematics 
+                     as an undergraduate at NYU Courant. Focusing on full-stack web development.
                   </Card.Text>
                </Card.Body>
             </Card>
@@ -21,9 +21,9 @@ const About = () => {
          <div className='desktop'>
             <SkillsDesktop />
          </div>
-         {/* <div className='mobile'>
+         <div className='mobile'>
             <SkillsMobile />
-         </div> */}
+         </div>
       </div>
    )
 }
