@@ -18,7 +18,7 @@ const IndexPage = () => (
     <About />
     <hr id='projects'/>
     <Cards />
-    <hr/>
+    <hr id='contact'/>
     <Experience />
     <Footer />
   </div>
