@@ -11,7 +11,7 @@ import '../styles/global.css'
 const IndexPage = () => (
   <div id='home'>
     <Helmet>
-      <title>DavidIOS</title>
+      <title>DavidIos</title>
       <meta name='description' content='Software developer studying Computer Science and Mathematics at NYU Courant. Focusing on full-stack web development.' />
     </Helmet>
     <Navbar />
