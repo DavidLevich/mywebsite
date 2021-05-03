@@ -14,7 +14,7 @@ const SkillsDesktop = () => {
                   <Card.Text>
                      <ul>
                         <li>React</li>
-                        <li>JavaSript</li>
+                        <li>JavaScript</li>
                         <li>HTML/CSS</li>
                      </ul>
                   </Card.Text>
