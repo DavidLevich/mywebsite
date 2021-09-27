@@ -5,10 +5,13 @@ body {
 }
 
 hr {
-   border-color: #53f6c7;
+   color: #53f6c7;
    border-width: 3px;
    max-width: 55em;
-   padding: 1.3em;
+   margin: auto;
+   margin-bottom: 1.5em;
+   padding: 1px;
+   opacity: 1;
    overflow-x: hidden;
 }
 
@@ -20,6 +23,7 @@ hr {
 
 @media screen and (max-width: 991px) {
    hr {
+      border-color: #53f6c7;
       max-width: 30em;
    }
 }

@@ -7,6 +7,7 @@
    width: 46em;
    height: 16em;
    margin-left: 1em;
+   display: flex;
 }
 
 .card-container {
