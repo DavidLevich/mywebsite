@@ -13,7 +13,7 @@ const About = () => {
                   <Card.Text className='text'>
                      <span className='intro'>Hey, I'm <span className='name'>David</span>. </span>
                      I'm a software developer currently studying Computer Science and Mathematics 
-                     as an undergraduate at NYU Courant. Focusing on full-stack web development.
+                     at NYU Courant. Focusing on full-stack web development.
                   </Card.Text>
                </Card.Body>
             </Card>

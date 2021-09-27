@@ -9,7 +9,7 @@ const WeensyOS = () => {
             <Card.Img className='rounded' variant="top" src={lsGIF} />
             <Card.Body style={{ height: '16rem'}}>
                <Card.Title className='font-weight-bold' style={{ marginTop: '-7px' }}>
-                  LS Lab (NYU)
+                  LS Lab
                </Card.Title>
                <Card.Text>
                   Implemented a version of the “ls” Unix command.

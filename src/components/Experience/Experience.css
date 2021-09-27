@@ -1,4 +1,4 @@
-#grader {
+#bullets {
    color: #d8d5d5;
    list-style-type: disc;
    margin-top: 5px;
@@ -19,24 +19,24 @@
 
 @media screen and (max-width: 991px) {
    #exp-body {
-      margin-right: 3em;
+      margin-right: 0.5em;
       display: flex;
       justify-content: center;
    }
 
    #exp-card {
-      width: 25rem;
+      width: 28rem;
    }
 }
 
 @media screen and (max-width: 800px) {
    #exp-body {
-      margin: 0;
+      margin-left: 1.6em;
       justify-content: center;
    }
 
    #exp-card {
-      width: 22rem;
+      width: 24rem;
    }
 
    #date {

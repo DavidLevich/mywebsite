@@ -15,8 +15,7 @@ const Recognition = () => {
                <Card.Text>
                   Developed an image processing web app using Clarifai machine learning API. 
                   Displays a detected face after an image URL is provided. 
-                  Implemented a database containing user and login information, connected to client-side login and registration forms. 
-                  Also added Bcrypt hashing function for password verification. 
+                  Added Bcrypt hashing function for password verification. 
                   Uses React, Express.js, and PostgreSQL.
                </Card.Text>
             </Card.Body>

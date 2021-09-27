@@ -10,7 +10,7 @@ const WeensyOS = () => {
             <Card.Img className='rounded' variant="top" src={osGIF} />
             <Card.Body style={{ height: '16rem' }}>
                <Card.Title className='font-weight-bold' style={{ marginTop: '-7px' }}>
-                  WeensyOS Lab (NYU)
+                  WeensyOS Lab
                </Card.Title>
                <Card.Text>
                   Implemented process memory isolation for a small operating system known as WeensyOS. 

@@ -1,5 +1,5 @@
 #footer-body {
-   margin-right: 29em;
+   margin-right: 29.2em;
    height: 12em;
    overflow-x: hidden;
 }
@@ -28,6 +28,7 @@ a:hover {
 
 @media screen and (max-width: 991px) {
    #footer-body {
+      padding-right: 1em;
       margin: 0;
    }
 }

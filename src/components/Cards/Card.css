@@ -11,6 +11,10 @@
    text-align: justify;
 }
 
+.recog {
+   margin-bottom: -2.3em;
+}
+
 
 @media screen and (max-width: 800px) {
    .card {

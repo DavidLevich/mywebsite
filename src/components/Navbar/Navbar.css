@@ -160,3 +160,12 @@
      transition: 250ms;
    }
  }
+
+ @media screen and (max-width: 570px) {
+  .navbar-name {
+    position: absolute;
+    top: 0;
+    left: -53px;
+    transform: translate(25%, 50%);
+  }
+ }
