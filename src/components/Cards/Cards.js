@@ -6,7 +6,7 @@ import Recognition from './Recognition'
 
 const Cards = () => {
    return (
-      <div className='cards-container pt-2'>
+      <div className='cards-container pt-5'>
          <Container className='d-flex justify-content-center pb-5 pt-2'>
             <Row className='d-flex justify-content-space-between px-auto'>
                <Col className='d-flex justify-content-center pt-2'>

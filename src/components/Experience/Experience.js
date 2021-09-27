@@ -6,7 +6,7 @@ import './Experience.css'
 const Experience = () => {
    return (
       <div id='exp-body'>
-         <Card id='exp-card' className='d-flex justify-content-center pb-4'>
+         <Card id='exp-card' className='d-flex justify-content-center pt-4 pb-4'>
             <Card.Body>
                <Card.Title className='font-weight-bold' style={{ color: '#53f6c7' }}>
                   Experience

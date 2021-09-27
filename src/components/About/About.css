@@ -15,10 +15,6 @@
    justify-content: center;
 }
 
-.desktop {
-   padding-bottom: 1.2em;
-}
-
 .mobile {
    display: none;
 }
