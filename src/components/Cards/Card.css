@@ -11,7 +11,7 @@
    text-align: justify;
 }
 
-.recog {
+.parallel {
    margin-bottom: -2.3em;
 }
 
@@ -26,7 +26,7 @@
       text-align: justify;
    }
 
-   .recog {
+   .parallel {
       padding-top: 3.5em !important;
    }
 }

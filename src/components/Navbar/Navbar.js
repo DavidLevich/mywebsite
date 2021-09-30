@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { AnchorLink } from 'gatsby-plugin-anchor-links'
+import { Link, animateScroll as scroll } from 'react-scroll'
 import './Navbar.css';
 
 const Navbar = () => {
@@ -11,27 +11,27 @@ const Navbar = () => {
     return (
       <nav className='navbar'>
         <div className='navbar-container'>
-          <AnchorLink to='/#home' className='navbar-name' onClick={closeMobileMenu}>
+          <Link activeClass='active' to='home' spy={true} smooth={true} duration={1} className='navbar-name' onClick={closeMobileMenu}>
             David Iosilevich
-          </AnchorLink>
+          </Link>
           <div className='menu-icon' onClick={handleClick} role='presentation'>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item' role='presentation' onClick={closeMobileMenu}>
-              <AnchorLink to='/#home' className='nav-links'>
+            <li className='nav-item' role='presentation'>
+              <Link activeClass='active' to='home' spy={true} smooth={true} duration={1} className='nav-links' onClick={closeMobileMenu}>
                 About
-              </AnchorLink>
+              </Link>
             </li>
-            <li className='nav-item' role='presentation' onClick={closeMobileMenu}>
-              <AnchorLink to='/#projects' className='nav-links'>
+            <li className='nav-item' role='presentation'>
+              <Link activeClass='active' to='projects' spy={true} smooth={true} duration={1} className='nav-links' onClick={closeMobileMenu}>
                 Projects
-              </AnchorLink>
+              </Link>
             </li>
-            <li className='nav-item' role='presentation' onClick={closeMobileMenu}>
-              <AnchorLink to='/#contact' className='nav-links'>
+            <li className='nav-item' role='presentation'>
+              <Link activeClass='active' to='contact' spy={true} smooth={true} duration={1} className='nav-links' onClick={closeMobileMenu}>
                 Contact
-              </AnchorLink>
+              </Link>
             </li>
           </ul>
         </div>

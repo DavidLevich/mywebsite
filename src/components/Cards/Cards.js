@@ -23,7 +23,7 @@ const Cards = () => {
                <Col className='d-flex justify-content-center pt-1'>
                   <LSLab />
                </Col>
-               <Col className='d-flex justify-content-center pt-1'>
+               <Col className='parallel d-flex justify-content-center pt-1'>
                   <Parallel />
                </Col>
             </Row>

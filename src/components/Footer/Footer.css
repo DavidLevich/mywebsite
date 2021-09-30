@@ -28,7 +28,7 @@ a:hover {
 
 @media screen and (max-width: 991px) {
    #footer-body {
-      padding-right: 1em;
+      padding-left: 1em;
       margin: 0;
    }
 }
