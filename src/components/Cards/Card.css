@@ -1,5 +1,7 @@
 .cards-container {
-   overflow-x: hidden;
+   overflow: hidden;
+   margin-top: -1.8em;
+   margin-bottom: -1.5em;
 }
 
 .card {
@@ -11,10 +13,13 @@
    text-align: justify;
 }
 
-.parallel {
-   margin-bottom: -2.3em;
+.add-margin {
+   margin-bottom: 1.3em;
 }
 
+.remove-margin {
+   margin-bottom: -1.5em;
+}
 
 @media screen and (max-width: 800px) {
    .card {
@@ -26,7 +31,15 @@
       text-align: justify;
    }
 
-   .parallel {
-      padding-top: 3.5em !important;
+   .mobile-add {
+      margin-bottom: 2.2em;
+   }
+   
+   .mobile-remove {
+      margin-bottom: -0.5em;
+   }
+
+   .protocols {
+      margin-bottom: 3.4em;
    }
 }

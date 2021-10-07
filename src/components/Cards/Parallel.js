@@ -1,12 +1,13 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
-// import osGIF from '../../images/weensyos/weensyos1.gif'
+import parallelImg from '../../images/parallel/parallel1.png'
 import './Card.css'
 
 const Parallel = () => {
    return (
-      <div>
+      <div className='remove-margin mobile-remove'>
          <Card>
+            <Card.Img className='rounded' variant="top" src={parallelImg}/>
             <Card.Body style={{ height: '16rem' }}>
                <Card.Title className='font-weight-bold' style={{ marginTop: '-7px' }}>
                   MPI + OpenMP Labs

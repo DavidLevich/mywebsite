@@ -1,12 +1,13 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
-// import osGIF from '../../images/weensyos/weensyos1.gif'
+import protocolsImg from '../../images/protocols/protocols.png'
 import './Card.css'
 
 const Protocols = () => {
    return (
-      <div>
+      <div className='protocols add-margin'>
          <Card>
+            <Card.Img className='rounded' variant="top" src={protocolsImg}/>
             <Card.Body style={{ height: '16rem' }}>
                <Card.Title className='font-weight-bold' style={{ marginTop: '-7px' }}>
                   Network Protocols Lab

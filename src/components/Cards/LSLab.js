@@ -4,7 +4,7 @@ import lsGIF from '../../images/ls-lab/ls-medium.gif'
 
 const WeensyOS = () => {
    return (
-      <div>
+      <div className='mobile-add'>
          <Card>
             <Card.Img className='rounded' variant="top" src={lsGIF} />
             <Card.Body style={{ height: '16rem'}}>

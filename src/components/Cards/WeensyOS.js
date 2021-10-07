@@ -5,7 +5,7 @@ import './Card.css'
 
 const WeensyOS = () => {
    return (
-      <div>
+      <div className='remove-margin mobile-remove'>
          <Card>
             <Card.Img className='rounded' variant="top" src={osGIF} />
             <Card.Body style={{ height: '16rem' }}>
