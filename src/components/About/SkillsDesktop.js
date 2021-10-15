@@ -15,7 +15,8 @@ const SkillsDesktop = () => {
                      <ul>
                         <li>React</li>
                         <li>JavaScript</li>
-                        <li>HTML/CSS</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
                      </ul>
                   </Card.Text>
                </Card.Body>
@@ -28,8 +29,9 @@ const SkillsDesktop = () => {
                   <Card.Text>
                      <ul>
                         <li>Python</li>
-                        <li>C</li>
                         <li>Node.js</li>
+                        <li>SQL</li>
+                        <li>Pandas</li>
                      </ul>
                   </Card.Text>
                </Card.Body>
@@ -43,7 +45,8 @@ const SkillsDesktop = () => {
                      <ul>
                         <li>Command Line</li>
                         <li>Git</li>
-                        <li>Heroku Deployment</li>
+                        <li>Heroku</li>
+                        <li>Figma</li>
                      </ul>
                   </Card.Text>
                </Card.Body>
