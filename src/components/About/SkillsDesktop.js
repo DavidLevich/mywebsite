@@ -46,7 +46,6 @@ const SkillsDesktop = () => {
                         <li>Command Line</li>
                         <li>Git</li>
                         <li>Heroku</li>
-                        <li>Figma</li>
                      </ul>
                   </Card.Text>
                </Card.Body>

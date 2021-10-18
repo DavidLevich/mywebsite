@@ -9,7 +9,7 @@ const SkillsMobile = () => {
          <h5 className='mobile-titles'>Back-End</h5>
          <p className='pb-2'>Python, Node.js, SQL, Pandas</p>
          <h5 className='mobile-titles'>Development Tools</h5>
-         <p className='pb-2'>Command Line, Git, Heroku, Figma</p>
+         <p className='pb-2'>Command Line, Git, Heroku</p>
       </div>
    )
 }
